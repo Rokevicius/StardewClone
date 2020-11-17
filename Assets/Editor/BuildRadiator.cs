@@ -71,7 +71,7 @@ public class BuildRadiator
                     BuildPipeline.BuildPlayer(GetScenePaths(), playerPath, buildTarget, BuildOptions.None);
                 }
             }
-            gfxAPIs = PlayerSettings.GetGraphicsAPIs(BuildTarget.Android); //Set back APIs 
+            gfxAPIs = PlayerSettings.SetGraphicsAPIs(BuildTarget.Android, new[] { Vulkan, OpenGLES3}); //Set back APIs 
         }
         else if (buildTargetGroup == BuildTargetGroup.iOS)
         {
