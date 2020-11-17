@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: 881e0e9acad4dbf40a9d06897cc30c13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2275979212460154212
+    second: Character 1 Up_0
+  - first:
+      213: 735536268982013425
+    second: Character 1 Up_1
+  - first:
+      213: 5914353474208181149
+    second: Character 1 Up_2
+  - first:
+      213: 1177144735711625819
+    second: Character 1 Up_3
+  - first:
+      213: -8330984163906539004
+    second: Character 1 Up_4
+  - first:
+      213: 8266715654707878209
+    second: Character 1 Up_5
+  - first:
+      213: 9217607946887284098
+    second: Character 1 Up_6
+  - first:
+      213: 2790113561791436550
+    second: Character 1 Up_7
+  - first:
+      213: 1117794325755937302
+    second: Character 1 Up_8
+  - first:
+      213: 2585354534263647085
+    second: Character 1 Up_9
+  - first:
+      213: 7223573832261397123
+    second: Character 1 Up_10
+  - first:
+      213: 6740035668428149836
+    second: Character 1 Up_11
+  - first:
+      213: -8836172596839274816
+    second: Character 1 Up_12
+  - first:
+      213: -585728675661092932
+    second: Character 1 Up_13
+  - first:
+      213: 7219517248535555157
+    second: Character 1 Up_14
+  - first:
+      213: 3997202100355840928
+    second: Character 1 Up_15
+  - first:
+      213: -5296441315907935403
+    second: Character 1 Up_16
+  - first:
+      213: 9017666488315800570
+    second: Character 1 Up_17
+  - first:
+      213: 466257918023807498
+    second: Character 1 Up_18
+  - first:
+      213: -6638373129524260215
+    second: Character 1 Up_19
+  - first:
+      213: 2259095760071071999
+    second: Character 1 Up_20
+  - first:
+      213: -2229373248296887600
+    second: Character 1 Up_21
+  - first:
+      213: 5657562586835838738
+    second: Character 1 Up_22
+  - first:
+      213: 5610059166472796151
+    second: Character 1 Up_23
+  - first:
+      213: 2347148065632050376
+    second: Character 1 Up_24
+  - first:
+      213: -6816323120641006047
+    second: Character 1 Up_25
+  - first:
+      213: 3300889336150490787
+    second: Character 1 Up_26
+  - first:
+      213: -7993529198035873171
+    second: Character 1 Up_27
+  - first:
+      213: -1038157733944485027
+    second: Character 1 Up_28
+  - first:
+      213: 4665716151182296270
+    second: Character 1 Up_29
+  - first:
+      213: 2936702873285288451
+    second: Character 1 Up_30
+  - first:
+      213: 1662502223289323300
+    second: Character 1 Up_31
+  - first:
+      213: 3781515919086286242
+    second: Character 1 Up_32
+  - first:
+      213: -5622957896019108949
+    second: Character 1 Up_33
+  - first:
+      213: -4236892194143766401
+    second: Character 1 Up_34
+  - first:
+      213: 4793543372106726766
+    second: Character 1 Up_35
+  - first:
+      213: -1095998670728565079
+    second: Character 1 Up_36
+  - first:
+      213: -8705491585018997699
+    second: Character 1 Up_37
+  - first:
+      213: -1073340211643533543
+    second: Character 1 Up_38
+  - first:
+      213: 8938399427228491434
+    second: Character 1 Up_39
+  - first:
+      213: -3394896767945056981
+    second: Character 1 Up_40
+  - first:
+      213: -946752355974573998
+    second: Character 1 Up_41
+  - first:
+      213: -1715301578528077621
+    second: Character 1 Up_42
+  - first:
+      213: 7317705984165579804
+    second: Character 1 Up_43
+  - first:
+      213: -9000344991738825873
+    second: Character 1 Up_44
+  - first:
+      213: 3438588802369896612
+    second: Character 1 Up_45
+  - first:
+      213: -683571810664136109
+    second: Character 1 Up_46
+  - first:
+      213: -8149674151701817477
+    second: Character 1 Up_47
+  - first:
+      213: 8973223228357194345
+    second: Character 1 Up_48
+  - first:
+      213: 307415184840580269
+    second: Character 1 Up_49
+  - first:
+      213: -6485138145919803235
+    second: Character 1 Up_50
+  - first:
+      213: -850156354771873353
+    second: Character 1 Up_51
+  - first:
+      213: -1456309869340407161
+    second: Character 1 Up_52
+  - first:
+      213: -8315335528135409377
+    second: Character 1 Up_53
+  - first:
+      213: 1019443309714471210
+    second: Character 1 Up_54
+  - first:
+      213: -2446187653310094881
+    second: Character 1 Up_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character 1 Up_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 860
+        width: 55
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f787f685ff88335c0800000000000000
+      internalID: -4236892194143766401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 Up_35
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 859
+        width: 55
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d79d5bc46168240800000000000000
+      internalID: 4793543372106726766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 Up_36
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 864
+        width: 53
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae6cec040b3ac0f0800000000000000
+      internalID: -1095998670728565079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 Up_37
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 870
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d345acfe681ef2780800000000000000
+      internalID: -8705491585018997699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 Up_38
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 866
+        width: 50
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91738d9a3caba11f0800000000000000
+      internalID: -1073340211643533543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 Up_39
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 860
+        width: 53
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae5280ebe29b0c70800000000000000
+      internalID: 8938399427228491434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 Up_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 601
+        width: 52
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d53816067e2e0d0800000000000000
+      internalID: -3394896767945056981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 Up_41
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 606
+        width: 51
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2501fd39fb57cd2f0800000000000000
+      internalID: -946752355974573998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 Up_42
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 613
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8ca296d460238e0800000000000000
+      internalID: -1715301578528077621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 Up_43
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 609
+        width: 53
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c80fc52d6bd8560800000000000000
+      internalID: 7317705984165579804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character 1 Up_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1896
+        width: 54
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d5cdaf807e59f10800000000000000
+      internalID: 2275979212460154212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6bc4c5a612bcffe4081ef10cd343de4b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

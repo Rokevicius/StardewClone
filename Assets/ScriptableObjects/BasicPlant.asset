@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 608ee91e7ad44fc46ad531c1c9f6a7c6, type: 3}
+  m_Name: BasicPlant
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: -3358397934552609100, guid: 20e9e3120cce5a14ba0786c573c1d4b2, type: 3}
+  - {fileID: -7697870420552956465, guid: 20e9e3120cce5a14ba0786c573c1d4b2, type: 3}
+  daysToGrow: 2
+  dropCount: 2
+  dropRadius: 1
+  dropablePlantPrefab: {fileID: 1261929884268077430, guid: 6e89671e6c0df1640a022a902421f2ed, type: 3}
