@@ -1,12 +1,6 @@
 using UnityEngine;
 using UnityEditor;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
-using System.IO.Compression;
 using UnityEngine.Rendering;
 
 public class BuildRadiator
@@ -14,7 +8,6 @@ public class BuildRadiator
     [MenuItem("Build/Build Android")]
     public static void BuildAndroid()
     {
-        // Get filename.
         string path = GetProjectFolderPath() + "/Builds";
         var filename = GetProjectName(); // do this so I can grab the project folder name
         BuildPlayer(BuildTargetGroup.Android, filename, path + "/");
@@ -23,7 +16,6 @@ public class BuildRadiator
     [MenuItem("Build/Build iOS")]
     public static void BuildiOS()
     {
-        // Get filename.
         string path = GetProjectFolderPath() + "/Builds";
         var filename = GetProjectName(); // do this so I can grab the project folder name
         BuildPlayer(BuildTargetGroup.iOS, filename, path + "/");
@@ -36,7 +28,6 @@ public class BuildRadiator
         BuildiOS();
     }
 
-    // this is the main player builder function
     static void BuildPlayer(BuildTargetGroup buildTargetGroup, string filename, string path)
     {
         string fileExtension = "";
@@ -46,8 +37,6 @@ public class BuildRadiator
         GraphicsDeviceType[] gfxAPIs = PlayerSettings.GetGraphicsAPIs(BuildTarget.Android);
         ManagedStrippingLevel[] mlvl = { ManagedStrippingLevel.Low, ManagedStrippingLevel.Medium, ManagedStrippingLevel.High };
 
-
-        // configure path variables based on the platform we're targeting
         switch (buildTargetGroup)
         {
             default:
@@ -82,6 +71,7 @@ public class BuildRadiator
                     BuildPipeline.BuildPlayer(GetScenePaths(), playerPath, buildTarget, BuildOptions.None);
                 }
             }
+            gfxAPIs = PlayerSettings.GetGraphicsAPIs(BuildTarget.Android); //Set back APIs 
         }
         else if (buildTargetGroup == BuildTargetGroup.iOS)
         {
