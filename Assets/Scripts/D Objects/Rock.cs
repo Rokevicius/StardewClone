@@ -22,7 +22,7 @@ public class Rock : HitObject
     {
         if (CurrentTool.Instance.getTypeTool() == CurrentTool.TypeTool.PickAxe)
         {
-            //animator.ResetTrigger("Hit");
+            GameEventSystem.current.HitEvent(); //animator.ResetTrigger("Hit");
             animator.SetTrigger("Hit");
             Debug.Log("Hit");
             hitCount--;
