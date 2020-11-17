@@ -23,8 +23,8 @@ public class DayCycleController : MonoBehaviour
     [SerializeField, Range(0, 1)] private float timeofDay;
     [SerializeField] float timeoffset = 0.05f;
 
-//   [Header("DEBUG parameters")]
-//    [SerializeField] Slider dayTimeDebugSlider;
+    [Header("DEBUG parameters")]
+    [SerializeField] Slider dayTimeDebugSlider;
 
     [Header("Respawn Player")]
     [SerializeField] GameObject spawnPlayerPosition;
