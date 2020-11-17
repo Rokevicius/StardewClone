@@ -143,9 +143,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sprites:
-  - {fileID: -3358397934552609100, guid: 20e9e3120cce5a14ba0786c573c1d4b2, type: 3}
-  - {fileID: -7697870420552956465, guid: 20e9e3120cce5a14ba0786c573c1d4b2, type: 3}
-  daysToGrow: 2
+  - {fileID: 21300402, guid: 537c371732866ca438a76cc8b649cde7, type: 3}
+  - {fileID: 21300072, guid: 537c371732866ca438a76cc8b649cde7, type: 3}
+  - {fileID: 21300368, guid: 537c371732866ca438a76cc8b649cde7, type: 3}
+  daysToGrow: 3
   dropCount: 2
   dropRadius: 1
   dropablePlantPrefab: {fileID: 1261929884268077430, guid: 6e89671e6c0df1640a022a902421f2ed, type: 3}

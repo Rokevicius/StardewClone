@@ -82,23 +82,28 @@ public class ToolsController : MonoBehaviour
     public void PlowSeed()
     {
         TileBase tileBase = tilemapController.GetTileBase(selectedTilePosition);
-        TileData tileData = tilemapController.GetTileData(tileBase);
-        if (CurrentTool.Instance.getTypeTool() == CurrentTool.TypeTool.Hoe)
+        if (tileBase != null && tilemapController.IsPlowable(tileBase))
         {
-            if (tileData != plowableTiles) return;
+            TileData tileData = tilemapController.GetTileData(tileBase);
 
-            if (cropsManager.IsPlowedTile(selectedTilePosition))
+            if (CurrentTool.Instance.getTypeTool() == CurrentTool.TypeTool.Hoe)
             {
-                if (!cropsManager.IsSeededTile(selectedTilePosition))
+                if (tileData != plowableTiles) return;
+
+                if (cropsManager.IsPlowedTile(selectedTilePosition))
                 {
-                    if (InventoryHolder.Instance.inventory.CheckItem(Item.ItemType.Seeds))
+                    if (!cropsManager.IsSeededTile(selectedTilePosition))
                     {
-                        cropsManager.CreateSeededTile(selectedTilePosition);
-                        InventoryHolder.Instance.inventory.RemoveItem(Item.ItemType.Seeds);
+                        if (InventoryHolder.Instance.inventory.CheckItem(Item.ItemType.Seeds))
+                        {
+                            cropsManager.CreateSeededTile(selectedTilePosition);
+                            InventoryHolder.Instance.inventory.RemoveItem(Item.ItemType.Seeds);
+                        }
                     }
                 }
+                else cropsManager.Plow(selectedTilePosition);
             }
-            else cropsManager.Plow(selectedTilePosition);
+
         }
     }
 

@@ -49,7 +49,14 @@ public class TilemapController : MonoBehaviour
 
     public TileData GetTileData(TileBase tilebase)
     {
-        return dataFromTiles[tilebase];
+            return dataFromTiles[tilebase];
+    }
+
+    public bool IsPlowable(TileBase tilebase)
+    {
+        if (dataFromTiles.ContainsKey(tilebase))
+            return true;
+        else return false;
     }
     #endregion
 }
